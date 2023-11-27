@@ -316,7 +316,8 @@ void RazmeryDannyx(void)
 
 
 int main()
-{
+{   
+    setlocale(LC_ALL, "RU");
     // 1 задача
 	double b10, b11, h;
 	std:: cout << "1 задача" << std:: endl;
